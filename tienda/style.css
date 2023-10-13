@@ -25,6 +25,8 @@
  }
 h1{
     font-size: 32px;
+    list-style-type: 'Montserrat', sans-serif;
+margin-left: 15%;
 }
 .flex-container {
     display: flex;
