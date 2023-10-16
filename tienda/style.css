@@ -32,6 +32,7 @@ margin-left: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .fila {
@@ -72,3 +73,5 @@ final ul{
     background-color: #333333;
     color: #ffffff;
  }
+ /*He copiado el código que me has dejado en la corrección del ejercico y usado la propiedad flex y he quitado la propiedad "list-style-type", pero lo que me has puesto
+ de las etiquetas no se como se hace :(*/
