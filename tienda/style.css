@@ -53,6 +53,11 @@ justify-content: center;
     margin: 16px;
 }
 
+.columna img{
+    margin: 16px;
+    border-radius: 14px;
+}
+
 .item {
     padding: 20px;
     border: 1px solid white;
@@ -74,20 +79,29 @@ align-items: center;
         display: inline;
         text-align: center;
         margin: 0px 10px;
-        background-color: #333333;
      }
  
+ #final li img {
+     margin: 0 5px;
+     color:#ffffff;
+     background-color: #333333;
+     padding: 8px;
+     border: 8px solid #333333;
+     border-radius: 50%;
+ }
+
 #final li a {
     padding: 16px 16px 16px 16px;
     color:#ffffff;
     background-color: #333333;
     border: 8px solid#333333;
-    text-decoration: none;
+   text-decoration: none;
  }
+
  #final li a:hover{
     background-color: #333333;
     color: #ffffff;
  }
- /*Border-radius para redondear las fotos;
- @media screen (max-with:920px), para adaptar la pantalla al móvil;
- He buscado información pero no se donde deben colocarse.*/
+ /* @media screen (max-with:920px), para adaptar la pantalla al móvil;
+ He buscado información pero no se donde deben colocarse. Tampoco consigo entender como 
+ rellenar de negro toda la parte final*/
