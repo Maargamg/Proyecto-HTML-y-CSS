@@ -35,6 +35,10 @@ h1{
 
 }
 
+.iconos {
+      float: right;
+        }
+
 .fila {
 display: flex;
 justify-content: center;
