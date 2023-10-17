@@ -2,7 +2,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 #navegador ul{
-    list-style-type: 'Montserrat', sans-serif;
+    list-style-type: square;
     text-align: center;
  }
 
@@ -20,13 +20,13 @@
     text-decoration: none;
  }
  #navegador li a:hover{
+    display: flex;
     background-color: #333333;
     color: #ffffff;
  }
 h1{
     font-size: 32px;
-    list-style-type: 'Montserrat', sans-serif;
-margin-left: 15%;
+    margin-left: 15%;
 }
 .flex-container {
     display: flex;
@@ -51,7 +51,6 @@ justify-content: center;
 }
 
 final ul{
-    list-style-type: 'Montserrat', sans-serif;
     text-align: center;
 
  }
@@ -73,5 +72,3 @@ final ul{
     background-color: #333333;
     color: #ffffff;
  }
- /*He copiado el código que me has dejado en la corrección del ejercico y usado la propiedad flex y he quitado la propiedad "list-style-type", pero lo que me has puesto
- de las etiquetas no se como se hace :(*/
