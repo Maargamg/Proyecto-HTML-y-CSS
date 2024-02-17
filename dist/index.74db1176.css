@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+}
+
+#navbar {
+  border-bottom: 1px solid #333;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 8px 16px;
+  display: flex;
+}
+
+#navbar > ul {
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  list-style-type: none;
+  display: flex;
+}
+
+#navbar > ul > li > a {
+  color: #212429;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+.iconos {
+  gap: 24px;
+  display: flex;
+}
+
+.content {
+  flex-flow: column wrap;
+  align-self: center;
+  gap: 16px;
+  max-width: 1280px;
+  display: flex;
+}
+
+h1 {
+  padding-left: 32px;
+  font-size: 32px;
+  display: flex;
+}
+
+.card-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  display: flex;
+}
+
+.card {
+  flex-direction: column;
+  display: flex;
+}
+
+.precio {
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  display: flex;
+}
+
+.card img {
+  border-radius: 14px;
+}
+
+footer {
+  background-color: #333;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 32px;
+  display: flex;
+}
+
+footer > .footer-item {
+  align-items: center;
+  gap: 16px;
+  display: flex;
+}
+
+footer a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.image-container {
+  background-color: #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  display: flex;
+}
+
+.image-container > img {
+  width: 32px;
+}
+
+@media screen and (width <= 920px) {
+  #navbar {
+    justify-content: center;
+  }
+
+  #navbar > ul, .iconos {
+    display: none;
+  }
+
+  .content, footer {
+    flex-direction: column;
+  }
+
+  .footer-item {
+    border-bottom: 1px solid #fff;
+    justify-content: flex-start;
+    width: 100%;
+    padding-bottom: 16px;
+  }
+}
+
+/*# sourceMappingURL=index.74db1176.css.map */
