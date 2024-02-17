@@ -154,9 +154,6 @@ footer  a {
     }
 }
 
-
-/* AÑADIDO */
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -178,7 +175,7 @@ footer  a {
     display: block;
   }
   
-  .dropdown-content a:hover, .dropdown-submenu-content a:hover {background-color: #ddd;}
+    .dropdown-content a:hover, .dropdown-submenu-content a:hover {background-color:gray}
   
   .dropdown:hover .dropdown-content {display: block;}
   
@@ -188,7 +185,7 @@ footer  a {
   
   .dropdown-submenu-content {
     top: 0;
-    left: 100%; /* Posiciona el submenú a la derecha del menú principal */
+    left: 100%; 
   }
   
   .dropdown-submenu:hover .dropdown-submenu-content {display: block;}
