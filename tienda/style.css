@@ -41,6 +41,7 @@ height: 100vh;
 
 .iconos {
     display: flex;
+   /* justify-content:;*/
     gap: 24px;
 }
 
@@ -136,7 +137,7 @@ footer  a {
     }
 
     .iconos {
-        display: none;
+        display: flex direction row;
     }
 
     .content {
