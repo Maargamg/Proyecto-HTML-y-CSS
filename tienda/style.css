@@ -111,6 +111,8 @@ footer  a {
     font-weight: bold;
 }
 
+
+
 .image-container {
     display: flex;
     justify-content: center;
@@ -190,3 +192,23 @@ footer  a {
   }
   
   .dropdown-submenu:hover .dropdown-submenu-content {display: block;}
+
+  #rotatingMessage {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0; 
+    white-space: nowrap;
+    animation: moveRight 20s linear infinite;
+  }
+  
+  @keyframes moveRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%); 
+    }
+  }
