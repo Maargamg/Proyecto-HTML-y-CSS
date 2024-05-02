@@ -100,11 +100,6 @@ footer > .footer-item {
     gap: 16px;
 }
 
-/* footer li {
-    display: flex;
-    align-items: center;
-} */
-
 footer  a {
     text-decoration: none;
     color: #ffffff;

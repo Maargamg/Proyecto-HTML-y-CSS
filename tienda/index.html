@@ -60,7 +60,14 @@
       <div class="dropdown">
         <button><img src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/online-shop/icons/icon-user.svg"></button>
         <div class="dropdown-content">
-          <a href="login.php">INICIO SESIÓN</a> 
+          <a href="index.js">INICIO SESIÓN</a> <form id="loginForm">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Iniciar Sesión</button>
+          </form>
+        
           <a href="index.js">NUEVO USUARIO</a>
         </div>
       </div>
@@ -150,3 +157,5 @@
 </body>
 
 </html>
+
+
