@@ -52,8 +52,8 @@ body {
 }
 
 .iconos button:hover {
-    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el cursor sobre el botón */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra al botón */
+    transform: scale(1.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .content {
@@ -63,7 +63,7 @@ body {
     flex-wrap: wrap;
     max-width: 1280px;
     align-self: center;
-    margin-bottom: 100px; /* Agregar un margen inferior para el pie de página */
+    margin-bottom: 100px;
 }
 
 h1 {
@@ -113,22 +113,22 @@ footer > .footer-item {
 
 footer  a {
     text-decoration: none;
-    color: #ffffff;
+    color: #333333;
     font-weight: bold;
 }
 
 footer {
-    position: fixed; /* Cambiar a posición fija */
-    bottom: 0; /* Fijar en la parte inferior de la ventana */
-    left: 0; /* Alinear a la izquierda */
-    width: 100%; /* Ocupar todo el ancho */
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
     padding: 32px;
-    background-color: #333333;
-    z-index: 1000; /* Asegurar que esté por encima del contenido */
+    background-color: #ffffff ;
+    z-index: 1000; 
 }
 
 .image-container {
@@ -147,14 +147,14 @@ footer {
 #loginForm input[type="text"],
 #loginForm input[type="password"] {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #333333;
     border-radius: 5px;
     margin-bottom: 10px;
 }
 
 #loginForm button[type="submit"] {
     background-color: #ff6f61;
-    color: #ffffff;
+    color: #333333;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -163,7 +163,7 @@ footer {
 }
 
 #loginForm button[type="submit"]:hover {
-    background-color: #e64c3c; /* Cambia el color al pasar el cursor sobre el botón */
+    background-color: #e64c3c;
 }
 
 @media screen and (max-width: 920px) {
@@ -191,7 +191,7 @@ footer {
         width: 100%;
         justify-content: flex-start;
         padding-bottom: 16px;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #333333;
     }
 }
 
@@ -203,7 +203,7 @@ footer {
 .dropdown-content, .dropdown-submenu-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color:#333333 ;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
