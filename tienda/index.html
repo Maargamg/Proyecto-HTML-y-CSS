@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <title>Tienda de ropa</title>
 </head>
 
@@ -81,23 +82,52 @@
 
   <main class="content">
     <h2>New in</h2>
-    <div class="card-container">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000"> 
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://www.andrespert.com/wp-content/uploads/moda-andrespert.jpg"
+            class="d-block w-100" alt="Vestido mujer corto de tirantes color verde 34.99€">
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.freepik.com/foto-gratis/mujer-moda-anos-2000_52683-100605.jpg?size=626&ext=jpg&ga=GA1.1.1687694167.1715299200&semt=sph"
+            class="d-block w-100" alt="Camisa de mujer amarilla de manga corta 29.99€">
+        </div>
+
+        <div class="carousel-item">
+          <img src="https://img.freepik.com/foto-gratis/propietario-boutique-moda-mide-vestido-estudio-blanco-negro-generado-ia_188544-11428.jpg"
+            class="d-block w-100" alt="Camisa de mujer amarilla de manga corta 29.99€">
+        </div>
+     
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   <div class="card-container">
       <div class="card">
-        <img src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/online-shop/images/image-3.jpg"
+        <!--<img src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/online-shop/images/image-3.jpg"
           alt="Vestido mujer corto de tirantes color verde 34.99€" titulo="Vestido mujer 34.99€" />
-        <p class="precio">Vestido <strong>24.99€</strong></p>
+        <p class="precio">Vestido <strong>24.99€</strong></p>-->
       </div>
       <div class="card">
-        <img src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/online-shop/images/image-6.jpg"
+       <!-- <img src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/online-shop/images/image-6.jpg"
           alt="Camisa de mujer amarilla de manga corta 29.99€" title="Camisa mujer 29.99€ " />
         <p class="precio">Camisa <strong> 29.99€</strong></p>
       </div>
       <div class="card">
         <img src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/online-shop/images/image-4.jpg"
           alt="Vaqueros mujer de color blanco 79.99€" title="Vaqueros mujer 79.99€" />
-        <p class="precio">Vaqueros <strong> 79.99€</strong></p>
+        <p class="precio">Vaqueros <strong> 79.99€</strong></p>-->
       </div>
-      <div class="card">
+     <!-- <div class="card">
         <img src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/online-shop/images/image-5.jpg"
           alt="Polo Hombre color beige y manga corta 44.95€" title="Polo hombre 44.95€" />
         <p class="precio">Polo <strong> 44.95€ </strong> </p>
@@ -111,13 +141,14 @@
         <img src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/online-shop/images/image-2.jpg"
           alt="Camiseta Hombre de manga corta, de color blanco y con unas letras estampadas 22.99€"
           title="Camiseta hombre 22.99€" />
-        <p class="precio">Camiseta <strong>22.99€</strong></p>
+        <p class="precio">Camiseta <strong>22.99€</strong></p>-->
       </div>
-    </div>
+    </div> 
   </main>
 
   <footer>
-    
+    <span id="rotatingMessage">Envio gratis por compras superiores a 30€</span>
+
     <div class="footer-item">
       <div class="image-container">
         <img src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/online-shop/icons/icon-truck.svg"
@@ -145,7 +176,7 @@
   </footer>
   </div>
   <span id="rotatingMessage">Envio gratis por compras superiores a 30€</span>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="index.js"></script>
 </body>
 
